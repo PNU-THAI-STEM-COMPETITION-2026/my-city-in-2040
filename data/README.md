@@ -1,4 +1,4 @@
-# DOPA registered population by age and sex
+# Selected Thailand and Korea registered population by age and sex
 
 ## Processed competition dataset
 
@@ -8,30 +8,29 @@ Row counts below exclude the CSV header.
 
 | File | Target years | Data rows | Columns |
 |---|---:|---:|---|
-| `population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 84,322 | 9 |
-| `population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 17,442 | 9 |
+| `Tha/population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 5,510 | 5 |
+| `Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 1,140 | 5 |
+| `kor/population_age_sex.csv` | Every year from 1993 through 2025 (33 years) | 4,752 | 5 |
+| `kor/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 864 | 5 |
 
-Both files use the same column structure:
+All four files use the same column structure:
 
 | Column | Description |
 |---|---|
 | `year` | Gregorian calendar year |
-| `province_code` | DOPA province code |
-| `province_name_th` | Province name in Thai |
 | `province_name_en` | Province name in English |
 | `sex` | `male` or `female` |
 | `age_group` | Five-year age group, `85+`, or `not_age_classified` |
 | `population` | Registered population count |
-| `population_type` | `registered` |
-| `reference_date` | December 31 reference date |
 
-`population_age_sex.csv` contains December 31 registered-population
-snapshots by province from 1997 through 2025.
+The Thailand files contain Bangkok, Chiang Mai, Chon Buri, Khon Kaen, and
+Phuket. Because the source data are province-level, Ban Bueng is represented
+by Chon Buri and Chatuchak by Bangkok.
 
-- 1997-2010: 76 provinces, before Bueng Kan was established
-- 2011-2025: 77 provinces
+The Korea files contain Busan, Daegu, Jeju, and Seoul. The source uses the
+English name `Busan`, not `Pusan`.
 
-`population_age_sex_5year.csv` is a smaller version with observed
+Each `population_age_sex_5year.csv` is a smaller version with observed
 December 31 snapshots for 2000, 2005, 2010, 2015, 2020 and 2025. These are
 selected observed years, not sums or averages across five-year periods.
 
@@ -57,9 +56,6 @@ population.
 The sharp population decrease in 2004 is a statistical discontinuity. DOPA
 reviewed and removed duplicate and otherwise inaccurate household-registration
 records. It should not be interpreted solely as deaths or migration.
-
-Bueng Kan (province code `38`) was established in 2011. It is correctly absent
-before 2011; historical values have not been backcast.
 
 ## Source and intermediate files
 
