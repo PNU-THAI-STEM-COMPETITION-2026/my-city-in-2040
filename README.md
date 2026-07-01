@@ -75,7 +75,7 @@ korea_five_year = pd.read_csv("data/KOR/population_age_sex_5year.csv")
   age-group sum differs from the published sex total by one or two people. The
   analysis-ready files preserve the published age-group values.
 - Historical Korean names are normalized to current names for stable grouping:
-  `강원특별자치도` and `전북특별자치도`.
+  `Gangwon State`, `Jeonbuk State`, and `Jeju`.
 
 ## Sources
 

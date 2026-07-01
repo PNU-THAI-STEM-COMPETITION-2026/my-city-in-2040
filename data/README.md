@@ -41,13 +41,8 @@ totals by the excluded amount.
 DOPA lists province-level age files beginning in 1994. However, all 228 source
 files for 1994-1996 have zeroes in every single-age field, and their purported
 province totals do not represent complete registered populations. They are
-retained in the raw directory but deliberately excluded from the processed
-dataset. The first year that passes structural and arithmetic validation is
-1997.
-
-See `quality/historical_population_age_validation.csv` for the annual
-validation result, source-file count, classified-age population and reported
-population.
+deliberately excluded from the processed dataset. The first year that passes
+structural and arithmetic validation is 1997.
 
 The sharp population decrease in 2004 is a statistical discontinuity. DOPA
 reviewed and removed duplicate and otherwise inaccurate household-registration
@@ -55,33 +50,3 @@ records. It should not be interpreted solely as deaths or migration.
 
 Bueng Kan was established in 2011. It is correctly absent before 2011;
 historical values have not been backcast.
-
-## Source and intermediate files
-
-- Source agency: Department of Provincial Administration (DOPA), Thailand
-- Historical annual download page:
-  <https://stat.bora.dopa.go.th/new_stat/webPage/statByProvince.php>
-- Historical direct URL pattern:
-  `https://stat.bora.dopa.go.th/new_stat/file/{BE_YEAR_2_DIGITS}12/{BE_YEAR_2_DIGITS}12cc{PROVINCE_CODE}.txt`
-- Monthly download page:
-  <https://stat.bora.dopa.go.th/new_stat/webPage/statByAgeMonth.php>
-- Monthly direct URL pattern:
-  `https://stat.bora.dopa.go.th/new_stat/file/{BE_YEAR_2_DIGITS}/1_{BE_YEAR_2_DIGITS}12.xls`
-- `raw/dopa_population_age_historical/`: 1,446 pipe-delimited UTF-8 source
-  files for 1994-2012, one per year and province.
-- `raw/dopa_population_age/`: 2013-2025 source files. Despite the `.xls`
-  extension, these are UTF-8 HTML tables.
-- `interim/dopa_population_age_wide/`: direct CSV conversions of the source
-  tables, with duplicate embedded tables removed.
-
-Download or resume the historical archive with:
-
-```sh
-python scripts/download_historical_dopa_population_age.py
-```
-
-Rebuild and validate the combined CSV with:
-
-```sh
-python scripts/build_population_age_sex.py
-```
