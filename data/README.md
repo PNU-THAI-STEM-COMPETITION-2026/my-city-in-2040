@@ -1,4 +1,4 @@
-# Selected Thailand and Korea registered population by age and sex
+# Thailand and Korea registered population by age and sex
 
 ## Processed competition dataset
 
@@ -8,10 +8,10 @@ Row counts below exclude the CSV header.
 
 | File | Target years | Data rows | Columns |
 |---|---:|---:|---|
-| `Tha/population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 5,220 | 5 |
-| `Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 1,080 | 5 |
-| `kor/population_age_sex.csv` | Every year from 1993 through 2025 (33 years) | 4,752 | 5 |
-| `kor/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 864 | 5 |
+| `THA/population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 79,884 | 5 |
+| `THA/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 16,524 | 5 |
+| `KOR/population_age_sex.csv` | Every year from 1993 through 2025 (33 years) | 19,368 | 5 |
+| `KOR/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 3,564 | 5 |
 
 All four files use the same column structure:
 
@@ -23,12 +23,9 @@ All four files use the same column structure:
 | `age_group` | Five-year age group or `85+` |
 | `population` | Registered population count |
 
-The Thailand files contain Bangkok, Chiang Mai, Chon Buri, Khon Kaen, and
-Phuket. Because the source data are province-level, Ban Bueng is represented
-by Chon Buri and Chatuchak by Bangkok.
-
-The Korea files contain Busan, Daegu, Jeju, and Seoul. The source uses the
-English name `Busan`, not `Pusan`.
+The Thailand files contain all 76 provinces through 2010 and all 77 provinces
+from 2011 onward. The Korea files contain all available province-level regions:
+15 from 1993 through 1996, 16 from 1997 through 2011, and 17 from 2012 onward.
 
 Each `population_age_sex_5year.csv` is a smaller version with observed
 December 31 snapshots for 2000, 2005, 2010, 2015, 2020 and 2025. These are
@@ -55,6 +52,9 @@ population.
 The sharp population decrease in 2004 is a statistical discontinuity. DOPA
 reviewed and removed duplicate and otherwise inaccurate household-registration
 records. It should not be interpreted solely as deaths or migration.
+
+Bueng Kan was established in 2011. It is correctly absent before 2011;
+historical values have not been backcast.
 
 ## Source and intermediate files
 
