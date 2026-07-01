@@ -17,7 +17,6 @@
 2000,Bangkok,male,75-79,17396
 2000,Bangkok,male,80-84,9048
 2000,Bangkok,male,85+,8486
-2000,Bangkok,male,not_age_classified,264444
 2000,Bangkok,female,0-4,159015
 2000,Bangkok,female,5-9,193095
 2000,Bangkok,female,10-14,185747
@@ -36,7 +35,6 @@
 2000,Bangkok,female,75-79,27083
 2000,Bangkok,female,80-84,14822
 2000,Bangkok,female,85+,15250
-2000,Bangkok,female,not_age_classified,217369
 2000,Chon Buri,male,0-4,38645
 2000,Chon Buri,male,5-9,40766
 2000,Chon Buri,male,10-14,37817
@@ -55,7 +53,6 @@
 2000,Chon Buri,male,75-79,3846
 2000,Chon Buri,male,80-84,2037
 2000,Chon Buri,male,85+,1964
-2000,Chon Buri,male,not_age_classified,49035
 2000,Chon Buri,female,0-4,36036
 2000,Chon Buri,female,5-9,38605
 2000,Chon Buri,female,10-14,35459
@@ -74,7 +71,6 @@
 2000,Chon Buri,female,75-79,4987
 2000,Chon Buri,female,80-84,2989
 2000,Chon Buri,female,85+,3013
-2000,Chon Buri,female,not_age_classified,34583
 2000,Khon Kaen,male,0-4,62798
 2000,Khon Kaen,male,5-9,70813
 2000,Khon Kaen,male,10-14,67091
@@ -93,7 +89,6 @@
 2000,Khon Kaen,male,75-79,5994
 2000,Khon Kaen,male,80-84,3114
 2000,Khon Kaen,male,85+,2444
-2000,Khon Kaen,male,not_age_classified,24235
 2000,Khon Kaen,female,0-4,59544
 2000,Khon Kaen,female,5-9,67124
 2000,Khon Kaen,female,10-14,64310
@@ -112,7 +107,6 @@
 2000,Khon Kaen,female,75-79,8348
 2000,Khon Kaen,female,80-84,4666
 2000,Khon Kaen,female,85+,3768
-2000,Khon Kaen,female,not_age_classified,20470
 2000,Chiang Mai,male,0-4,45324
 2000,Chiang Mai,male,5-9,54116
 2000,Chiang Mai,male,10-14,53609
@@ -131,7 +125,6 @@
 2000,Chiang Mai,male,75-79,9831
 2000,Chiang Mai,male,80-84,4875
 2000,Chiang Mai,male,85+,3586
-2000,Chiang Mai,male,not_age_classified,67397
 2000,Chiang Mai,female,0-4,43335
 2000,Chiang Mai,female,5-9,51625
 2000,Chiang Mai,female,10-14,51207
@@ -150,7 +143,6 @@
 2000,Chiang Mai,female,75-79,10900
 2000,Chiang Mai,female,80-84,5637
 2000,Chiang Mai,female,85+,4772
-2000,Chiang Mai,female,not_age_classified,60403
 2000,Phuket,male,0-4,11670
 2000,Phuket,male,5-9,11603
 2000,Phuket,male,10-14,9128
@@ -169,7 +161,6 @@
 2000,Phuket,male,75-79,626
 2000,Phuket,male,80-84,311
 2000,Phuket,male,85+,283
-2000,Phuket,male,not_age_classified,4504
 2000,Phuket,female,0-4,11169
 2000,Phuket,female,5-9,10749
 2000,Phuket,female,10-14,8743
@@ -188,7 +179,6 @@
 2000,Phuket,female,75-79,969
 2000,Phuket,female,80-84,553
 2000,Phuket,female,85+,443
-2000,Phuket,female,not_age_classified,4237
 2005,Bangkok,male,0-4,154437
 2005,Bangkok,male,5-9,196082
 2005,Bangkok,male,10-14,211318
@@ -207,7 +197,6 @@
 2005,Bangkok,male,75-79,24394
 2005,Bangkok,male,80-84,12058
 2005,Bangkok,male,85+,10189
-2005,Bangkok,male,not_age_classified,101848
 2005,Bangkok,female,0-4,146283
 2005,Bangkok,female,5-9,186448
 2005,Bangkok,female,10-14,204489
@@ -226,7 +215,6 @@
 2005,Bangkok,female,75-79,39664
 2005,Bangkok,female,80-84,20607
 2005,Bangkok,female,85+,17441
-2005,Bangkok,female,not_age_classified,80446
 2005,Chon Buri,male,0-4,41309
 2005,Chon Buri,male,5-9,44033
 2005,Chon Buri,male,10-14,44812
@@ -245,7 +233,6 @@
 2005,Chon Buri,male,75-79,5447
 2005,Chon Buri,male,80-84,2760
 2005,Chon Buri,male,85+,2247
-2005,Chon Buri,male,not_age_classified,16126
 2005,Chon Buri,female,0-4,38877
 2005,Chon Buri,female,5-9,41520
 2005,Chon Buri,female,10-14,42750
@@ -264,7 +251,6 @@
 2005,Chon Buri,female,75-79,7294
 2005,Chon Buri,female,80-84,3963
 2005,Chon Buri,female,85+,3427
-2005,Chon Buri,female,not_age_classified,10904
 2005,Khon Kaen,male,0-4,53290
 2005,Khon Kaen,male,5-9,64112
 2005,Khon Kaen,male,10-14,70485
@@ -283,7 +269,6 @@
 2005,Khon Kaen,male,75-79,8859
 2005,Khon Kaen,male,80-84,3885
 2005,Khon Kaen,male,85+,2623
-2005,Khon Kaen,male,not_age_classified,9038
 2005,Khon Kaen,female,0-4,50315
 2005,Khon Kaen,female,5-9,60702
 2005,Khon Kaen,female,10-14,66894
@@ -302,7 +287,6 @@
 2005,Khon Kaen,female,75-79,11638
 2005,Khon Kaen,female,80-84,5857
 2005,Khon Kaen,female,85+,4229
-2005,Khon Kaen,female,not_age_classified,7390
 2005,Chiang Mai,male,0-4,41960
 2005,Chiang Mai,male,5-9,47547
 2005,Chiang Mai,male,10-14,55731
@@ -321,7 +305,6 @@
 2005,Chiang Mai,male,75-79,12805
 2005,Chiang Mai,male,80-84,6579
 2005,Chiang Mai,male,85+,4315
-2005,Chiang Mai,male,not_age_classified,76623
 2005,Chiang Mai,female,0-4,39550
 2005,Chiang Mai,female,5-9,45350
 2005,Chiang Mai,female,10-14,53430
@@ -340,7 +323,6 @@
 2005,Chiang Mai,female,75-79,15008
 2005,Chiang Mai,female,80-84,7811
 2005,Chiang Mai,female,85+,5627
-2005,Chiang Mai,female,not_age_classified,68590
 2005,Phuket,male,0-4,12410
 2005,Phuket,male,5-9,12425
 2005,Phuket,male,10-14,12310
@@ -359,7 +341,6 @@
 2005,Phuket,male,75-79,1133
 2005,Phuket,male,80-84,444
 2005,Phuket,male,85+,305
-2005,Phuket,male,not_age_classified,2591
 2005,Phuket,female,0-4,11664
 2005,Phuket,female,5-9,12072
 2005,Phuket,female,10-14,11545
@@ -378,7 +359,6 @@
 2005,Phuket,female,75-79,1564
 2005,Phuket,female,80-84,793
 2005,Phuket,female,85+,541
-2005,Phuket,female,not_age_classified,2222
 2010,Bangkok,male,0-4,144603
 2010,Bangkok,male,5-9,165702
 2010,Bangkok,male,10-14,197970
@@ -397,7 +377,6 @@
 2010,Bangkok,male,75-79,33658
 2010,Bangkok,male,80-84,17011
 2010,Bangkok,male,85+,12248
-2010,Bangkok,male,not_age_classified,98053
 2010,Bangkok,female,0-4,135952
 2010,Bangkok,female,5-9,158436
 2010,Bangkok,female,10-14,190312
@@ -416,7 +395,6 @@
 2010,Bangkok,female,75-79,51521
 2010,Bangkok,female,80-84,30507
 2010,Bangkok,female,85+,21900
-2010,Bangkok,female,not_age_classified,74863
 2010,Chon Buri,male,0-4,46380
 2010,Chon Buri,male,5-9,44565
 2010,Chon Buri,male,10-14,47419
@@ -435,7 +413,6 @@
 2010,Chon Buri,male,75-79,6930
 2010,Chon Buri,male,80-84,3800
 2010,Chon Buri,male,85+,2777
-2010,Chon Buri,male,not_age_classified,15160
 2010,Chon Buri,female,0-4,43811
 2010,Chon Buri,female,5-9,42191
 2010,Chon Buri,female,10-14,45219
@@ -454,7 +431,6 @@
 2010,Chon Buri,female,75-79,9555
 2010,Chon Buri,female,80-84,5761
 2010,Chon Buri,female,85+,4400
-2010,Chon Buri,female,not_age_classified,9121
 2010,Khon Kaen,male,0-4,51259
 2010,Khon Kaen,male,5-9,53301
 2010,Khon Kaen,male,10-14,63636
@@ -473,7 +449,6 @@
 2010,Khon Kaen,male,75-79,10226
 2010,Khon Kaen,male,80-84,5876
 2010,Khon Kaen,male,85+,3199
-2010,Khon Kaen,male,not_age_classified,11420
 2010,Khon Kaen,female,0-4,48093
 2010,Khon Kaen,female,5-9,50336
 2010,Khon Kaen,female,10-14,60108
@@ -492,7 +467,6 @@
 2010,Khon Kaen,female,75-79,14228
 2010,Khon Kaen,female,80-84,8301
 2010,Khon Kaen,female,85+,5194
-2010,Khon Kaen,female,not_age_classified,8349
 2010,Chiang Mai,male,0-4,41328
 2010,Chiang Mai,male,5-9,43495
 2010,Chiang Mai,male,10-14,49440
@@ -511,7 +485,6 @@
 2010,Chiang Mai,male,75-79,14936
 2010,Chiang Mai,male,80-84,8582
 2010,Chiang Mai,male,85+,5162
-2010,Chiang Mai,male,not_age_classified,50926
 2010,Chiang Mai,female,0-4,38337
 2010,Chiang Mai,female,5-9,41086
 2010,Chiang Mai,female,10-14,47379
@@ -530,7 +503,6 @@
 2010,Chiang Mai,female,75-79,18100
 2010,Chiang Mai,female,80-84,10953
 2010,Chiang Mai,female,85+,6742
-2010,Chiang Mai,female,not_age_classified,47695
 2010,Phuket,male,0-4,13978
 2010,Phuket,male,5-9,13311
 2010,Phuket,male,10-14,13628
@@ -549,7 +521,6 @@
 2010,Phuket,male,75-79,1343
 2010,Phuket,male,80-84,819
 2010,Phuket,male,85+,411
-2010,Phuket,male,not_age_classified,2826
 2010,Phuket,female,0-4,13127
 2010,Phuket,female,5-9,12640
 2010,Phuket,female,10-14,13273
@@ -568,7 +539,6 @@
 2010,Phuket,female,75-79,1912
 2010,Phuket,female,80-84,1286
 2010,Phuket,female,85+,803
-2010,Phuket,female,not_age_classified,2211
 2015,Bangkok,male,0-4,130731
 2015,Bangkok,male,5-9,148661
 2015,Bangkok,male,10-14,162700
@@ -587,7 +557,6 @@
 2015,Bangkok,male,75-79,44125
 2015,Bangkok,male,80-84,26292
 2015,Bangkok,male,85+,19586
-2015,Bangkok,male,not_age_classified,103762
 2015,Bangkok,female,0-4,123671
 2015,Bangkok,female,5-9,140802
 2015,Bangkok,female,10-14,156688
@@ -606,7 +575,6 @@
 2015,Bangkok,female,75-79,65259
 2015,Bangkok,female,80-84,43553
 2015,Bangkok,female,85+,35828
-2015,Bangkok,female,not_age_classified,79818
 2015,Chon Buri,male,0-4,49021
 2015,Chon Buri,male,5-9,48984
 2015,Chon Buri,male,10-14,46715
@@ -625,7 +593,6 @@
 2015,Chon Buri,male,75-79,8957
 2015,Chon Buri,male,80-84,5418
 2015,Chon Buri,male,85+,4511
-2015,Chon Buri,male,not_age_classified,20832
 2015,Chon Buri,female,0-4,45745
 2015,Chon Buri,female,5-9,46351
 2015,Chon Buri,female,10-14,44397
@@ -644,7 +611,6 @@
 2015,Chon Buri,female,75-79,11927
 2015,Chon Buri,female,80-84,8131
 2015,Chon Buri,female,85+,7037
-2015,Chon Buri,female,not_age_classified,12595
 2015,Khon Kaen,male,0-4,49330
 2015,Khon Kaen,male,5-9,51582
 2015,Khon Kaen,male,10-14,53470
@@ -663,7 +629,6 @@
 2015,Khon Kaen,male,75-79,14108
 2015,Khon Kaen,male,80-84,7462
 2015,Khon Kaen,male,85+,5266
-2015,Khon Kaen,male,not_age_classified,8443
 2015,Khon Kaen,female,0-4,46110
 2015,Khon Kaen,female,5-9,48517
 2015,Khon Kaen,female,10-14,50386
@@ -682,7 +647,6 @@
 2015,Khon Kaen,female,75-79,17795
 2015,Khon Kaen,female,80-84,11043
 2015,Khon Kaen,female,85+,7987
-2015,Khon Kaen,female,not_age_classified,4828
 2015,Chiang Mai,male,0-4,41873
 2015,Chiang Mai,male,5-9,42374
 2015,Chiang Mai,male,10-14,44664
@@ -701,7 +665,6 @@
 2015,Chiang Mai,male,75-79,13474
 2015,Chiang Mai,male,80-84,10541
 2015,Chiang Mai,male,85+,8028
-2015,Chiang Mai,male,not_age_classified,73316
 2015,Chiang Mai,female,0-4,39647
 2015,Chiang Mai,female,5-9,39443
 2015,Chiang Mai,female,10-14,42337
@@ -720,7 +683,6 @@
 2015,Chiang Mai,female,75-79,16777
 2015,Chiang Mai,female,80-84,13700
 2015,Chiang Mai,female,85+,10951
-2015,Chiang Mai,female,not_age_classified,68923
 2015,Phuket,male,0-4,14440
 2015,Phuket,male,5-9,14683
 2015,Phuket,male,10-14,13591
@@ -739,7 +701,6 @@
 2015,Phuket,male,75-79,1807
 2015,Phuket,male,80-84,1062
 2015,Phuket,male,85+,828
-2015,Phuket,male,not_age_classified,6666
 2015,Phuket,female,0-4,13617
 2015,Phuket,female,5-9,13712
 2015,Phuket,female,10-14,13112
@@ -758,7 +719,6 @@
 2015,Phuket,female,75-79,2431
 2015,Phuket,female,80-84,1611
 2015,Phuket,female,85+,1446
-2015,Phuket,female,not_age_classified,5358
 2020,Bangkok,male,0-4,105738
 2020,Bangkok,male,5-9,133445
 2020,Bangkok,male,10-14,145821
@@ -777,7 +737,6 @@
 2020,Bangkok,male,75-79,49729
 2020,Bangkok,male,80-84,33520
 2020,Bangkok,male,85+,28354
-2020,Bangkok,male,not_age_classified,85287
 2020,Bangkok,female,0-4,100197
 2020,Bangkok,female,5-9,127188
 2020,Bangkok,female,10-14,139422
@@ -796,7 +755,6 @@
 2020,Bangkok,female,75-79,74742
 2020,Bangkok,female,80-84,53744
 2020,Bangkok,female,85+,50623
-2020,Bangkok,female,not_age_classified,66242
 2020,Chon Buri,male,0-4,43455
 2020,Chon Buri,male,5-9,51692
 2020,Chon Buri,male,10-14,50490
@@ -815,7 +773,6 @@
 2020,Chon Buri,male,75-79,9871
 2020,Chon Buri,male,80-84,6654
 2020,Chon Buri,male,85+,6124
-2020,Chon Buri,male,not_age_classified,21378
 2020,Chon Buri,female,0-4,41026
 2020,Chon Buri,female,5-9,48283
 2020,Chon Buri,female,10-14,47981
@@ -834,7 +791,6 @@
 2020,Chon Buri,female,75-79,13995
 2020,Chon Buri,female,80-84,9782
 2020,Chon Buri,female,85+,9481
-2020,Chon Buri,female,not_age_classified,12452
 2020,Khon Kaen,male,0-4,40418
 2020,Khon Kaen,male,5-9,50055
 2020,Khon Kaen,male,10-14,51689
@@ -853,7 +809,6 @@
 2020,Khon Kaen,male,75-79,16737
 2020,Khon Kaen,male,80-84,10052
 2020,Khon Kaen,male,85+,6868
-2020,Khon Kaen,male,not_age_classified,5063
 2020,Khon Kaen,female,0-4,37830
 2020,Khon Kaen,female,5-9,46825
 2020,Khon Kaen,female,10-14,48608
@@ -872,7 +827,6 @@
 2020,Khon Kaen,female,75-79,21281
 2020,Khon Kaen,female,80-84,13572
 2020,Khon Kaen,female,85+,10653
-2020,Khon Kaen,female,not_age_classified,2134
 2020,Chiang Mai,male,0-4,37948
 2020,Chiang Mai,male,5-9,43925
 2020,Chiang Mai,male,10-14,44836
@@ -891,7 +845,6 @@
 2020,Chiang Mai,male,75-79,13602
 2020,Chiang Mai,male,80-84,9755
 2020,Chiang Mai,male,85+,10033
-2020,Chiang Mai,male,not_age_classified,82657
 2020,Chiang Mai,female,0-4,36010
 2020,Chiang Mai,female,5-9,41729
 2020,Chiang Mai,female,10-14,41985
@@ -910,7 +863,6 @@
 2020,Chiang Mai,female,75-79,16098
 2020,Chiang Mai,female,80-84,12996
 2020,Chiang Mai,female,85+,14369
-2020,Chiang Mai,female,not_age_classified,78295
 2020,Phuket,male,0-4,12710
 2020,Phuket,male,5-9,15053
 2020,Phuket,male,10-14,14695
@@ -929,7 +881,6 @@
 2020,Phuket,male,75-79,2192
 2020,Phuket,male,80-84,1310
 2020,Phuket,male,85+,1081
-2020,Phuket,male,not_age_classified,7679
 2020,Phuket,female,0-4,11905
 2020,Phuket,female,5-9,14306
 2020,Phuket,female,10-14,13870
@@ -948,7 +899,6 @@
 2020,Phuket,female,75-79,2785
 2020,Phuket,female,80-84,2034
 2020,Phuket,female,85+,1912
-2020,Phuket,female,not_age_classified,6131
 2025,Bangkok,male,0-4,75098
 2025,Bangkok,male,5-9,107008
 2025,Bangkok,male,10-14,131061
@@ -967,7 +917,6 @@
 2025,Bangkok,male,75-79,66134
 2025,Bangkok,male,80-84,37341
 2025,Bangkok,male,85+,38437
-2025,Bangkok,male,not_age_classified,80649
 2025,Bangkok,female,0-4,70013
 2025,Bangkok,female,5-9,102170
 2025,Bangkok,female,10-14,126061
@@ -986,7 +935,6 @@
 2025,Bangkok,female,75-79,101299
 2025,Bangkok,female,80-84,61591
 2025,Bangkok,female,85+,65792
-2025,Bangkok,female,not_age_classified,61747
 2025,Chon Buri,male,0-4,33284
 2025,Chon Buri,male,5-9,44994
 2025,Chon Buri,male,10-14,52669
@@ -1005,7 +953,6 @@
 2025,Chon Buri,male,75-79,12381
 2025,Chon Buri,male,80-84,7158
 2025,Chon Buri,male,85+,8054
-2025,Chon Buri,male,not_age_classified,21020
 2025,Chon Buri,female,0-4,31173
 2025,Chon Buri,female,5-9,42626
 2025,Chon Buri,female,10-14,49777
@@ -1024,7 +971,6 @@
 2025,Chon Buri,female,75-79,18840
 2025,Chon Buri,female,80-84,11489
 2025,Chon Buri,female,85+,12076
-2025,Chon Buri,female,not_age_classified,12886
 2025,Khon Kaen,male,0-4,29469
 2025,Khon Kaen,male,5-9,41216
 2025,Khon Kaen,male,10-14,50275
@@ -1043,7 +989,6 @@
 2025,Khon Kaen,male,75-79,22359
 2025,Khon Kaen,male,80-84,11854
 2025,Khon Kaen,male,85+,9628
-2025,Khon Kaen,male,not_age_classified,5742
 2025,Khon Kaen,female,0-4,27450
 2025,Khon Kaen,female,5-9,38684
 2025,Khon Kaen,female,10-14,46925
@@ -1062,7 +1007,6 @@
 2025,Khon Kaen,female,75-79,29178
 2025,Khon Kaen,female,80-84,16261
 2025,Khon Kaen,female,85+,13507
-2025,Khon Kaen,female,not_age_classified,2264
 2025,Chiang Mai,male,0-4,29738
 2025,Chiang Mai,male,5-9,39978
 2025,Chiang Mai,male,10-14,46084
@@ -1081,7 +1025,6 @@
 2025,Chiang Mai,male,75-79,20678
 2025,Chiang Mai,male,80-84,9827
 2025,Chiang Mai,male,85+,10657
-2025,Chiang Mai,male,not_age_classified,85095
 2025,Chiang Mai,female,0-4,28452
 2025,Chiang Mai,female,5-9,38168
 2025,Chiang Mai,female,10-14,43844
@@ -1100,7 +1043,6 @@
 2025,Chiang Mai,female,75-79,26717
 2025,Chiang Mai,female,80-84,12607
 2025,Chiang Mai,female,85+,15330
-2025,Chiang Mai,female,not_age_classified,79897
 2025,Phuket,male,0-4,9145
 2025,Phuket,male,5-9,13481
 2025,Phuket,male,10-14,15061
@@ -1119,7 +1061,6 @@
 2025,Phuket,male,75-79,3003
 2025,Phuket,male,80-84,1554
 2025,Phuket,male,85+,1380
-2025,Phuket,male,not_age_classified,7013
 2025,Phuket,female,0-4,8553
 2025,Phuket,female,5-9,12783
 2025,Phuket,female,10-14,14440
@@ -1138,4 +1079,3 @@
 2025,Phuket,female,75-79,4177
 2025,Phuket,female,80-84,2241
 2025,Phuket,female,85+,2353
-2025,Phuket,female,not_age_classified,4853

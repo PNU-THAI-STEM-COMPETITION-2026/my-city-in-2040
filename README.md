@@ -11,8 +11,8 @@ Each record represents a province, year, sex, and five-year age group.
 
 | File | Years included | Data rows | Description |
 |---|---:|---:|---|
-| `data/Tha/population_age_sex.csv` | Every year from 1997 to 2025 | 5,510 | Thailand annual data |
-| `data/Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 | 1,140 | Thailand five-year snapshots |
+| `data/Tha/population_age_sex.csv` | Every year from 1997 to 2025 | 5,220 | Thailand annual data |
+| `data/Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 | 1,080 | Thailand five-year snapshots |
 | `data/kor/population_age_sex.csv` | Every year from 1993 to 2025 | 4,752 | Korea annual data |
 | `data/kor/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 | 864 | Korea five-year snapshots |
 
@@ -40,7 +40,7 @@ All CSV files use the same five columns.
 | `year` | Gregorian calendar year |
 | `province_name_en` | Province name in English |
 | `sex` | `male` or `female` |
-| `age_group` | `0-4`, `5-9`, ..., `80-84`, `85+`; Thailand also has `not_age_classified` |
+| `age_group` | `0-4`, `5-9`, ..., `80-84`, `85+` |
 | `population` | Population value |
 
 ## Load the Data in Google Colab
@@ -62,9 +62,9 @@ korea_five_year = pd.read_csv("data/kor/population_age_sex_5year.csv")
 
 - These datasets contain registered population, which is not the same as census
   population or projected population.
-- `not_age_classified` contains registered residents who are included in DOPA's
-  reported total but are not assigned to a single year of age in the source
-  files. Keep this category when calculating total population.
+- Thailand totals calculated from these files exclude DOPA records that are
+  not assigned to an age (`not_age_classified`). They are therefore lower than
+  DOPA's official registered-population totals by the excluded amount.
 - The decrease in registered population in 2004 is partly caused by DOPA's
   correction and removal of duplicate or inaccurate registration records. It
   should not be interpreted only as deaths or migration.

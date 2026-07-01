@@ -8,8 +8,8 @@ Row counts below exclude the CSV header.
 
 | File | Target years | Data rows | Columns |
 |---|---:|---:|---|
-| `Tha/population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 5,510 | 5 |
-| `Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 1,140 | 5 |
+| `Tha/population_age_sex.csv` | Every year from 1997 through 2025 (29 years) | 5,220 | 5 |
+| `Tha/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 1,080 | 5 |
 | `kor/population_age_sex.csv` | Every year from 1993 through 2025 (33 years) | 4,752 | 5 |
 | `kor/population_age_sex_5year.csv` | 2000, 2005, 2010, 2015, 2020, 2025 (6 years) | 864 | 5 |
 
@@ -20,7 +20,7 @@ All four files use the same column structure:
 | `year` | Gregorian calendar year |
 | `province_name_en` | Province name in English |
 | `sex` | `male` or `female` |
-| `age_group` | Five-year age group, `85+`, or `not_age_classified` |
+| `age_group` | Five-year age group or `85+` |
 | `population` | Registered population count |
 
 The Thailand files contain Bangkok, Chiang Mai, Chon Buri, Khon Kaen, and
@@ -34,11 +34,10 @@ Each `population_age_sex_5year.csv` is a smaller version with observed
 December 31 snapshots for 2000, 2005, 2010, 2015, 2020 and 2025. These are
 selected observed years, not sums or averages across five-year periods.
 
-`not_age_classified` reconciles the single-age columns with DOPA's reported
-sex total. It contains records that are present in the source total but not
-assigned to a single age. In the newer files these source categories include
-lunar-year births, central-house-registration records, non-Thai nationals,
-and records being moved.
+The processed Thailand files exclude DOPA's `not_age_classified` records so
+that every row belongs to a defined age group. Totals calculated from these
+files are consequently lower than DOPA's official registered-population
+totals by the excluded amount.
 
 ## Historical-data limitations
 
